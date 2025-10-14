@@ -5,7 +5,7 @@
 ## PL — Opis (Polish)
 
 Krótki opis
-- Prosty projekt pokazujący generowanie pytań quizowych przy użyciu API Perplexity.
+- Prosty projekt z kursu READY 4AI pokazujący generowanie pytań quizowych przy użyciu API Perplexity.
 - Główny skrypt: `chatbot_quiz_app_with_Perplexity.py`.
 
 Co robi program
