@@ -45,7 +45,6 @@ Najważniejsze pliki
 
 Uwagi
 - Skrypt oczekuje poprawnego, czystego JSON-a od modelu — warto rozważyć dodatkowe walidacje/parsing i retry.
-- Przed publikacją na GitHub dodaj plik LICENSE.
 
 ---
 
