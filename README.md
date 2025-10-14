@@ -1,8 +1,8 @@
 # 🤖 Chatbot Quiz — opis projektu
 
-# Chatbot Quiz — opis projektu / Project README
+# Chatbot Quiz — opis projektu
 
-## PL — Opis (Polish)
+## PL — Opis (Polski)
 
 Krótki opis
 - Prosty projekt z kursu READY 4AI pokazujący generowanie pytań quizowych przy użyciu API Perplexity.
