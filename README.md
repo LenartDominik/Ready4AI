@@ -1,7 +1,5 @@
 # 🤖 Chatbot Quiz — opis projektu
 
-# Chatbot Quiz — opis projektu
-
 ## PL — Opis (Polski)
 
 Krótki opis
