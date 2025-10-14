@@ -89,7 +89,6 @@ Key files
 
 Notes
 - The script assumes the model returns valid JSON; add validation and retries for robustness.
-- Add a LICENSE file before publishing the repository.
 
 
 
