@@ -38,7 +38,7 @@ def get_quiz_question(asked_questions=None):
 Jesteś generatorem quizów dotyczących klubu piłkarskiego FC Barcelona. Wygeneruj dokładnie 
 JEDNO pytanie quizowe z 4 opcjami odpowiedzi.
 
-KRYTYCZNE: NIE POWTARZAJ pytań z poniższej listy!
+KRYTYCZNE: NIE POWTARZAJ pytania z listy! Zakończ quiz po ostatnim pytaniu.
 """
 
 
@@ -47,18 +47,6 @@ KRYTYCZNE: NIE POWTARZAJ pytań z poniższej listy!
         for i, q in enumerate(asked_questions, 1):
             base_prompt += f"{i}. {q}\n"
 
-    base_prompt += """
-    
-WAŻNE: Zwróć JSON dokładnie w tym formacie:
-{
-  "question": "Treść pytania",
-  "options": ["opcja a", "opcja b", "opcja c", "opcja d"],
-  "correct_answer_index": 0
-}
-
-Gdzie "correct_answer_index" to liczba 0-3 (0=a, 1=b, 2=c, 3=d).
-Pytanie musi być RÓŻNE od wszystkich wyżej wymienionych!
-"""
 
     response = client.chat.completions.create(
         model="sonar",
@@ -121,4 +109,4 @@ def quiz(total_questions):
 
 
 if __name__ == "__main__":
-    quiz(total_questions=10)
+    quiz(total_questions=5)
